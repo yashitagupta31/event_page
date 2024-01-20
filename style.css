@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #d1cffb;
+}
+table.event1 tr:hover td{
+    background-color:  #dbdafa;
+
+}
+.event1:hover{
+    background-color: #dbdafa;
+}
+
+
+img {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+color:blue
+}
+
+table {
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+
+}
+.event1{
+    margin-top: 40px;
+}
+ td{
+    padding :10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+i{
+    width:20px;
+    height:20px;
+}
+td.button :hover{
+background-color: #c8c6ef;
+}
+
