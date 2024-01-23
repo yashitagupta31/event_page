@@ -4,14 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
-    background-color: #d1cffb;
+    background-color: #2545a6;
 }
 table.event1 tr:hover td{
-    background-color:  #dbdafa;
+    background-color:  #647ec9;
 
 }
 .event1:hover{
-    background-color: #dbdafa;
+    background-color: #647ec9;
 }
 
 
@@ -22,7 +22,7 @@ img {
 h1 {
     text-align: center;
     margin-top: 20px;
-color:blue
+color:white;
 }
 
 table {
@@ -40,6 +40,7 @@ table {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    color:white;
 }
 i{
     width:20px;
@@ -48,4 +49,9 @@ i{
 td.button :hover{
 background-color: #c8c6ef;
 }
-
+table.event1 td.button  button i{
+    color:white;
+}
+.eventName{
+    font-size: 22px;
+}
