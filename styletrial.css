@@ -1,0 +1,58 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #d1cffb;
+}
+body{
+    padding: 0 20px;
+}
+
+div.events{
+    margin:20px 200px;
+    align-items: center;
+}
+div.heading{
+    text-align: center;
+    font-size: 28px;
+    margin:30px 0;
+}
+div.event1{
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:50px;
+    margin-bottom:30px;
+}
+div.event1:hover div{
+    background-color: #dddbfa;
+}
+div.event1:hover{
+    background-color: #dddbfa;
+}
+div.image{
+    align-content: right;
+}
+
+img{
+    height:50px;
+    width:50px;
+}
+.eventName{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+div.button :hover{
+    background-color:#ecebfd;
+    
+}
+button{
+    
+    width:60px;
+    height:40px;
+    border-width: 0px;;
+}
